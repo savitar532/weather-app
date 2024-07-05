@@ -1,6 +1,3 @@
-console.log("antaa baane undhi le")
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message1')
