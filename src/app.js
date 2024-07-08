@@ -4,7 +4,9 @@ const app = express()
 const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
+const cors = require('cors')
 
+app.use(cors({}))
 //define path for express config
 const publicDirectoryPath = path.join(__dirname,'../public') 
 const viewsPath = path.join(__dirname,'../templates/views')
